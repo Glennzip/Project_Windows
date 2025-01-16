@@ -23,12 +23,13 @@ namespace Project_Windows
 
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
-
+            Course course = new Course();
+            course.Show();
         }
 
         private void Home_Load(object sender, EventArgs e)
         {
-
+        
         }
 
         private void panel2_Paint(object sender, PaintEventArgs e)
@@ -54,6 +55,16 @@ namespace Project_Windows
         private void panel4_Paint_1(object sender, PaintEventArgs e)
         {
                 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
